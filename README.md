@@ -1,9 +1,22 @@
+# Amanda Hanway - Streaming Data, Module 4
+
 # streaming-04-multiple-consumers
 
 > Use RabbitMQ to distribute tasks to multiple workers
 
 One process will create task messages. Multiple worker processes will share the work. 
 
+## Overview
+- v3_emitter_of_tasks.py
+    - This program sends a message to a queue on the RabbitMQ server.
+    - The program can be set to receive messages from a csv input file, or from the command line.
+    - Change the message_source variable to "csv" or "command line" as needed.
+    - For csv, enter the filename in the csv_file variable.
+    - The code is based on v2.emitter_of_tasks.py.
+- v3_listening_worker.py
+    - This program listens for work messages contiously. 
+    - Start multiple versions (terminals) to add more workers.  
+    - The code is from on v2_listening_worker.py.
 
 ## Before You Begin
 
@@ -58,3 +71,5 @@ Which worker gets which tasks?
 ## Screenshot
 
 See a running example with at least 3 concurrent process windows here:
+
+![Using Multiple Terminals](One_emitter_Two_listeners.png)
