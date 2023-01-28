@@ -16,7 +16,7 @@ One process will create task messages. Multiple worker processes will share the 
 - v3_listening_worker.py
     - This program listens for work messages contiously. 
     - Start multiple versions (terminals) to add more workers.  
-    - The code is from on v2_listening_worker.py.
+    - The code is from v2_listening_worker.py.
 
 ## Before You Begin
 
