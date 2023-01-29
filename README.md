@@ -14,7 +14,7 @@ One process will create task messages. Multiple worker processes will share the 
     - For csv, enter the filename in the csv_file variable.
     - The code is based on v2.emitter_of_tasks.py.
 - v3_listening_worker.py
-    - This program listens for work messages contiously. 
+    - This program listens for work messages continuously. 
     - Start multiple versions (terminals) to add more workers.  
     - The code is from v2_listening_worker.py.
 

@@ -1,12 +1,12 @@
 """
     Amanda Hanway - Streaming Data, Module 4
-    1/28/23
+    1/29/23
 
     This program listens for work messages contiously. 
     Start multiple versions to add more workers.  
 
-    Author: Denise Case
-    Date: January 15, 2023
+    Author: Amanda Hanway, original code provided by Denise Case
+    Date: January 29, 2023
 """
 
 import pika

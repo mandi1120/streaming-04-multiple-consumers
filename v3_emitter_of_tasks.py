@@ -1,12 +1,12 @@
 """
     Amanda Hanway - Streaming Data, Module 4
-    1/28/23
+    1/29/23
 
     This program sends a message to a queue on the RabbitMQ server.
     Make tasks harder/longer-running by adding dots at the end of the message.
 
-    Author: Denise Case
-    Date: January 15, 2023
+    Author: Amanda Hanway, original code provided by Denise Case
+    Date: January 29, 2023
 """
 
 import pika
@@ -93,7 +93,7 @@ if __name__ == "__main__":
     offer_rabbitmq_admin_site(show_offer) 
 
     # enter "csv" or "command line" to select source of messages
-    message_source = "command line"
+    message_source = "csv"
 
     # set input file or empty string for command line
     csv_file = 'tasks.csv'
